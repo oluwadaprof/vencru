@@ -1,13 +1,12 @@
 import "./App.css";
+import SideNav from "./components/NavBar/SideNav";
 import CreateRoutes from "./routes/routes";
-import NavBar from "./components/NavBar/index";
+// import NavBar from "./components/NavBar/index";
 
 function App() {
   return (
     <div className="App relative">
-      <div className="fixed w-full bg-white">
-        <NavBar />
-      </div>
+        <SideNav/>
       <div className="pt-20">
         <CreateRoutes />
       </div>
